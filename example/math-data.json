@@ -1,0 +1,631 @@
+[
+    {
+        "id": 76487473,
+        "x": -100,
+        "y": -33.75,
+        "type": "start-node",
+        "title": "Function Start",
+        "inputs": [],
+        "outputs": [
+            {
+                "id": 465289938,
+                "x": 156,
+                "y": 46,
+                "text": "Start (x)",
+                "target": [
+                    328141846,
+                    636969032
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 76487473
+            }
+        ],
+        "color": "#599",
+        "w": 200,
+        "h": 80
+    },
+    {
+        "id": 844634295,
+        "x": 115.24999999999997,
+        "y": 64,
+        "type": "power-node",
+        "title": "Power",
+        "inputs": [
+            {
+                "id": 328141846,
+                "x": 214.2,
+                "y": 124.19999999999999,
+                "text": "Base",
+                "target": [
+                    465289938
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 844634295
+            },
+            {
+                "id": 672312761,
+                "x": 214.2,
+                "y": 148.2,
+                "text": "Exponent",
+                "target": [
+                    377115662
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 844634295
+            }
+        ],
+        "outputs": [
+            {
+                "id": 774656200,
+                "x": 343.79999999999995,
+                "y": 124.19999999999999,
+                "text": "Result",
+                "target": [
+                    26408801
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 844634295
+            }
+        ],
+        "color": null,
+        "w": 212,
+        "h": 110
+    },
+    {
+        "id": 508293864,
+        "x": 112.25,
+        "y": 194,
+        "type": "power-node",
+        "title": "Power",
+        "inputs": [
+            {
+                "id": 636969032,
+                "x": 211.8,
+                "y": 228.2,
+                "text": "Base",
+                "target": [
+                    465289938
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 508293864
+            },
+            {
+                "id": 40694193,
+                "x": 211.8,
+                "y": 252.2,
+                "text": "Exponent",
+                "target": [
+                    307565246
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 508293864
+            }
+        ],
+        "outputs": [
+            {
+                "id": 926309738,
+                "x": 341.4,
+                "y": 228.2,
+                "text": "Result",
+                "target": [
+                    804877398
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 508293864
+            }
+        ],
+        "color": null,
+        "w": 212,
+        "h": 110
+    },
+    {
+        "id": 837255097,
+        "x": -100,
+        "y": 223.75,
+        "type": "value-node",
+        "title": "Value",
+        "inputs": [],
+        "outputs": [
+            {
+                "id": 307565246,
+                "x": 119,
+                "y": 251.99999999999997,
+                "text": "",
+                "target": [
+                    40694193
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 837255097
+            }
+        ],
+        "color": null,
+        "w": 150,
+        "h": 80,
+        "values": [
+            {
+                "x": 39,
+                "y": 251.99999999999997,
+                "regex": "[0-9]*",
+                "label": "Num",
+                "text": "2",
+                "selected": false,
+                "boxsize": 50,
+                "w": 82,
+                "h": 21
+            }
+        ]
+    },
+    {
+        "id": 578251814,
+        "x": -100,
+        "y": 93.5,
+        "type": "value-node",
+        "title": "Value",
+        "inputs": [],
+        "outputs": [
+            {
+                "id": 377115662,
+                "x": 119.39999999999998,
+                "y": 147.79999999999998,
+                "text": "",
+                "target": [
+                    672312761
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 578251814
+            }
+        ],
+        "color": null,
+        "w": 150,
+        "h": 80,
+        "values": [
+            {
+                "x": 39.39999999999999,
+                "y": 147.79999999999998,
+                "regex": "[0-9]*",
+                "label": "Num",
+                "text": "4",
+                "selected": false,
+                "boxsize": 50,
+                "w": 87,
+                "h": 21
+            }
+        ]
+    },
+    {
+        "id": 911723246,
+        "x": 117.75,
+        "y": 337.25,
+        "type": "multiply-node",
+        "title": "Multiply",
+        "inputs": [
+            {
+                "id": 804877398,
+                "x": 216.2,
+                "y": 342.79999999999995,
+                "text": "Value 1",
+                "target": [
+                    926309738
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 911723246
+            },
+            {
+                "id": 792503359,
+                "x": 216.2,
+                "y": 366.79999999999995,
+                "text": "Value 2",
+                "target": [
+                    885760430
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 911723246
+            }
+        ],
+        "outputs": [
+            {
+                "id": 703444128,
+                "x": 336.2,
+                "y": 342.79999999999995,
+                "text": "Product",
+                "target": [
+                    365518650
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 911723246
+            }
+        ],
+        "color": null,
+        "w": 200,
+        "h": 110
+    },
+    {
+        "id": 771906257,
+        "x": 685,
+        "y": 556.25,
+        "type": "result-node",
+        "title": "Result",
+        "inputs": [
+            {
+                "id": 169469657,
+                "x": 670,
+                "y": 517.9999999999999,
+                "text": "In",
+                "target": [
+                    462519426
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 771906257
+            }
+        ],
+        "outputs": [],
+        "color": "#b95",
+        "w": 200,
+        "h": 80
+    },
+    {
+        "id": 435283702,
+        "x": 413,
+        "y": 65,
+        "type": "subtract-node",
+        "title": "Subtract",
+        "inputs": [
+            {
+                "id": 26408801,
+                "x": 452.4,
+                "y": 125,
+                "text": "Value 1",
+                "target": [
+                    774656200
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 435283702
+            },
+            {
+                "id": 365518650,
+                "x": 452.4,
+                "y": 149,
+                "text": "Value 2",
+                "target": [
+                    703444128
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 435283702
+            }
+        ],
+        "outputs": [
+            {
+                "id": 490179815,
+                "x": 572.4,
+                "y": 125,
+                "text": "Diff",
+                "target": [
+                    744671431
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 435283702
+            }
+        ],
+        "color": null,
+        "w": 200,
+        "h": 110
+    },
+    {
+        "id": 742388859,
+        "x": 669,
+        "y": 65.5,
+        "type": "divide-node",
+        "title": "Divide",
+        "inputs": [
+            {
+                "id": 744671431,
+                "x": 657.1999999999999,
+                "y": 125.4,
+                "text": "Value 1",
+                "target": [
+                    490179815
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 742388859
+            },
+            {
+                "id": 973786560,
+                "x": 657.1999999999999,
+                "y": 149.4,
+                "text": "Value 2",
+                "target": [
+                    546071232
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 742388859
+            }
+        ],
+        "outputs": [
+            {
+                "id": 940204743,
+                "x": 777.1999999999999,
+                "y": 125.4,
+                "text": "Ratio",
+                "target": [
+                    417790634
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 742388859
+            }
+        ],
+        "color": null,
+        "w": 200,
+        "h": 110
+    },
+    {
+        "id": 765302817,
+        "x": 692,
+        "y": 224.5,
+        "type": "add-node",
+        "title": "Add",
+        "inputs": [
+            {
+                "id": 417790634,
+                "x": 675.5999999999999,
+                "y": 252.6,
+                "text": "Value 1",
+                "target": [
+                    940204743
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 765302817
+            },
+            {
+                "id": 273086361,
+                "x": 675.5999999999999,
+                "y": 276.59999999999997,
+                "text": "Value 2",
+                "target": [
+                    606645152
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 765302817
+            }
+        ],
+        "outputs": [
+            {
+                "id": 462519426,
+                "x": 795.5999999999999,
+                "y": 252.6,
+                "text": "Sum",
+                "target": [
+                    169469657
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 765302817
+            }
+        ],
+        "color": null,
+        "w": 200,
+        "h": 110
+    },
+    {
+        "id": 844640495,
+        "x": 145,
+        "y": 491.75,
+        "type": "value-node",
+        "title": "Value",
+        "inputs": [],
+        "outputs": [
+            {
+                "id": 914398934,
+                "x": 318,
+                "y": 466.4,
+                "text": "",
+                "target": [
+                    702336817
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 844640495
+            }
+        ],
+        "color": null,
+        "w": 150,
+        "h": 80,
+        "values": [
+            {
+                "x": 238,
+                "y": 466.4,
+                "regex": "[0-9]*",
+                "label": "Num",
+                "text": "10",
+                "selected": false,
+                "boxsize": 50,
+                "w": 82,
+                "h": 21
+            }
+        ]
+    },
+    {
+        "id": 338835366,
+        "x": 148,
+        "y": 588.25,
+        "type": "value-node",
+        "title": "Value",
+        "inputs": [],
+        "outputs": [
+            {
+                "id": 167806298,
+                "x": 320.4,
+                "y": 543.5999999999999,
+                "text": "",
+                "target": [
+                    521857373
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 338835366
+            }
+        ],
+        "color": null,
+        "w": 150,
+        "h": 80,
+        "values": [
+            {
+                "x": 240.39999999999998,
+                "y": 543.5999999999999,
+                "regex": "[0-9]*",
+                "label": "Num",
+                "text": "6",
+                "selected": false,
+                "boxsize": 50,
+                "w": 82,
+                "h": 21
+            }
+        ]
+    },
+    {
+        "id": 962680746,
+        "x": 355.5,
+        "y": 464.5,
+        "type": "power-node",
+        "title": "Power",
+        "inputs": [
+            {
+                "id": 702336817,
+                "x": 406.4,
+                "y": 444.59999999999997,
+                "text": "Base",
+                "target": [
+                    914398934
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 962680746
+            },
+            {
+                "id": 521857373,
+                "x": 406.4,
+                "y": 468.59999999999997,
+                "text": "Exponent",
+                "target": [
+                    167806298
+                ],
+                "type": "input",
+                "size": 20,
+                "parent": 962680746
+            }
+        ],
+        "outputs": [
+            {
+                "id": 546071232,
+                "x": 526.4,
+                "y": 444.59999999999997,
+                "text": "Result",
+                "target": [
+                    973786560
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 962680746
+            }
+        ],
+        "color": null,
+        "w": 200,
+        "h": 110
+    },
+    {
+        "id": 73883000,
+        "x": -100,
+        "y": 367.5,
+        "type": "value-node",
+        "title": "Value",
+        "inputs": [],
+        "outputs": [
+            {
+                "id": 885760430,
+                "x": 121.6,
+                "y": 367,
+                "text": "",
+                "target": [
+                    792503359
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 73883000
+            }
+        ],
+        "color": null,
+        "w": 150,
+        "h": 80,
+        "values": [
+            {
+                "x": 41.60000000000001,
+                "y": 367,
+                "regex": "[0-9]*",
+                "label": "Num",
+                "text": "10000",
+                "selected": false,
+                "boxsize": 50,
+                "w": 82,
+                "h": 21
+            }
+        ]
+    },
+    {
+        "id": 427920609,
+        "x": 423.5,
+        "y": 255.25,
+        "type": "value-node",
+        "title": "Value",
+        "inputs": [],
+        "outputs": [
+            {
+                "id": 606645152,
+                "x": 540.8,
+                "y": 277.2,
+                "text": "",
+                "target": [
+                    273086361
+                ],
+                "type": "output",
+                "size": 20,
+                "parent": 427920609
+            }
+        ],
+        "color": null,
+        "w": 150,
+        "h": 80,
+        "values": [
+            {
+                "x": 460.79999999999995,
+                "y": 277.2,
+                "regex": "[0-9]*",
+                "label": "Num",
+                "text": "50",
+                "selected": false,
+                "boxsize": 50,
+                "w": 82,
+                "h": 21
+            }
+        ]
+    }
+]

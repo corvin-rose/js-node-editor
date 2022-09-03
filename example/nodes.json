@@ -1,0 +1,86 @@
+[
+    {
+        "type":"start-node",
+        "title":"Function Start",
+        "color":"#599",
+        "inputs":[],
+        "outputs":[
+            "Start (x)"
+        ]
+    },
+    {
+        "type":"result-node",
+        "title":"Result",
+        "color":"#b95",
+        "inputs":[
+            "In"
+        ],
+        "outputs":[]
+    },
+    {
+        "type":"value-node",
+        "title":"Value",
+        "values":[
+            {
+                "boxsize":50,
+                "label":"Num",
+                "regex":"[0-9]*"
+            }
+        ]
+    },
+    {
+        "type":"add-node",
+        "title":"Add",
+        "inputs":[
+            "Value 1",
+            "Value 2"
+        ],
+        "outputs":[
+            "Sum"
+        ]
+    },
+    {
+        "type":"subtract-node",
+        "title":"Subtract",
+        "inputs":[
+            "Value 1",
+            "Value 2"
+        ],
+        "outputs":[
+            "Diff"
+        ]
+    },
+    {
+        "type":"multiply-node",
+        "title":"Multiply",
+        "inputs":[
+            "Value 1",
+            "Value 2"
+        ],
+        "outputs":[
+            "Product"
+        ]
+    },
+    {
+        "type":"divide-node",
+        "title":"Divide",
+        "inputs":[
+            "Value 1",
+            "Value 2"
+        ],
+        "outputs":[
+            "Ratio"
+        ]
+    },
+    {
+        "type":"power-node",
+        "title":"Power",
+        "inputs":[
+            "Base",
+            "Exponent"
+        ],
+        "outputs":[
+            "Result"
+        ]
+    }
+]
